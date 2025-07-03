@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franchise | HyNa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Poppins', 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><a href="index.html">HyNa</a></div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="franchise.html">Franchise</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" class="primary-btn">Get In Touch</a>
+    </nav>
+    <button class="mobile-menu" aria-label="Open navigation"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="feature-block">
+       </div>
+
+      <!-- Floating image -->
+       </div>
+      <div class="hero-image-wrapper">
+        <img src="assets/kios1.png" alt="Kiosk" />
+      
+
+      <!-- Colored gradient box behind image -->
+      </div>
+      <h1 class="gradient-text">Start Your Own Vending Business!</h1>
+      <p>HyNa provides <strong>free high-tech printing vending machines</strong> to qualifying institutions such as colleges, universities, and public service venues across Kerala. As a franchise partner, you manage the business, earn 100% of the print revenue, and benefit from full backend support.</p>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text" >Why Become a HyNa Franchisee?</h2>
+      <ul>
+        <ul><strong>Zero Machine Cost:</strong> We provide the vending machine at no upfront hardware cost.</li>
+        <ul><strong>Earn Passive Income:</strong> You receive all earnings from print jobs directly to your bank account.</li>
+        <ul><strong>Fully Supported:</strong> Our team handles setup, branding, digital payment onboarding, and training.</li>
+        <ul><strong>Smart Software:</strong> Track prints, refill levels, and revenue in real-time from anywhere.</li>
+        <ul><strong>Exclusive Ad Display Rights:</strong> We retain advertisement screen rights to support operations.</li>
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">Who Can Apply?</h2>
+      <p>We’re currently onboarding franchisees across educational and commercial locations in Kerala. Ideal candidates include:</p>
+      <ul>
+        College campuses & administrators
+        Small business owners or entrepreneurs
+        Office parks and co-working spaces
+        Hospitals, railway stations, and transport hubs
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">Selection Criteria</h2>
+      <p>As we invest heavily in each machine, only select partners
+        <br> are accepted based on the following:</p>
+      
+        High footfall and secure location,Internet and power availability
+        Willingness to maintain the machine and refill consumables
+        Agreement to allow company branding and advertisement display
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">How It Works</h2>
+      <ol>
+        <ul><strong>Apply:</strong> Fill the franchise interest form. We'll assess your location and requirements.</li>
+        <ul><strong>Approval:</strong> If approved, you’ll sign a simple MOU and confirm your interest.</li>
+        <ul><strong>Install:</strong> We deliver the machine, set it up, and connect it to payment gateway.</li>
+        <ul><strong>Operate:</strong> You’ll receive training, product refilling info, and start earning immediately.</li>
+      </ol>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">Financial Breakdown</h2>
+      <ul>
+        <ul><strong>Initial Setup:</strong> ₹0 machine cost (conditions apply)</li>
+        <ul><strong>Product Refills:</strong> You’ll refill paper and cartridges (~₹800–₹1500/month depending on usage)</li>
+        <ul><strong>Monthly Earnings:</strong> Depends on location, avg. ₹5k–₹20k/month for active machines</li>
+        <ul><strong>Advertisement Revenue:</strong> Not available to franchisee; retained by company</li>
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">Included Services</h2>
+      <ul>
+        <ul>Machine branding + UV vinyl design</li>
+        <ul>Installation support</li>
+        <ul>Razorpay/UPI payment integration</li>
+        <ul>Online dashboard access for earnings and print status</li>
+        <ul>Ongoing support via WhatsApp/email</li>
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2 class="gradient-text">Franchise Owner Responsibilities</h2>
+      <ul>
+        <ul>Provide reliable power and internet connection</li>
+        <ul>Maintain machine hygiene and security</li>
+        <ul>Refill paper and cartridges as needed</li>
+        <ul>Check dashboard for low supplies and errors</li>
+      </ul>
+    </section>
+
+    <section class="feature-block">
+      <h2>Ready to Start?</h2>
+      
+      <a href="contact.html" class="primary-btn">Apply Now</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> HyNa. All rights reserved.</p>
+    <p>
+      <a href="https://instagram.com/yourpage" target="_blank">Instagram</a> |
+      <a href="https://wa.me/919876543210" target="_blank">WhatsApp</a> |
+      <a href="terms.html">Terms & Refund Policy</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.querySelector('.mobile-menu').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

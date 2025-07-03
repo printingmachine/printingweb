@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get In Touch | HyNa</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><a href="index.html">HyNa</a></div>
+    <nav class="nav-links">
+      <a href="franchise.html">Franchise</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" class="primary-btn">Get In Touch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="feature-block">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you. Fill out the form and we’ll get back to you shortly.</p>
+
+      <form action="https://formcarry.com/s/RAqQNCV997Q" method="POST" class="contact-form">
+  <input type="hidden" name="_redirect" value="thankyou.html" />
+  
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+  <button type="submit" class="primary-btn">Send Message</button>
+</form>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> HyNa. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    
+  </script>
+</body>
+</html>
