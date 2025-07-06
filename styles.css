@@ -517,3 +517,55 @@ a:hover {
   color: white;
   line-height: 1.6;
 }
+
+
+
+.pricing-premium {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #0a0a0a;
+}
+
+.pricing-premium h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-premium .subhead {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.pricing-card {
+  background: black;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  max-width: 300px;
+  flex: 1 1 200px;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card .price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f46e5; /* premium purple */
+}
+
+.pricing-card .description {
+  font-size: 0.95rem;
+  color: white;
+  margin-top: 0.5rem;
+}
